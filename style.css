@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  border: none;
+}
+
+body {
+  background-image: linear-gradient(68.15deg, #21222c 16.62%, #282a36 85.61%);
+  font-size: 100%;
+  min-height: 100%;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+  background-color: #282a36; /* or add it to the track */
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #aaaaaa;
+  border-radius: 15px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+}
+
+.header-img {
+  height: 60px;
+}
+
+.header-nav {
+  display: flex;
+  gap: 32px;
+}
+
+.header-nav-item {
+  font-family: "Roboto Mono", monospace;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.header-nav-item-img {
+  height: 30px;
+}
+
+.content {
+  margin-bottom: 48px;
+  border-top: 0.4px solid #2f303b;
+}
+
+.content-principal {
+  display: flex;
+  padding-top: 60px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.content-principal-text {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.content-principal-text-title {
+  font-family: "Roboto Mono", monospace;
+  color: white;
+  font-weight: 400;
+  font-size: 38px;
+}
+
+.content-principal-text-subtitle {
+  font-family: "Roboto Mono", monospace;
+  color: white;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.content-principal-img {
+  height: 380px;
+  border-radius: 50%;
+}
+
+.footer {
+  padding: 14px;
+  border-top: 0.4px solid #2f303b;
+}
+
+.footer-img {
+  height: 48px;
+  display: block;
+  margin: 0 auto;
+}
