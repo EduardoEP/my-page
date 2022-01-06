@@ -8,18 +8,20 @@
   border: none;
 }
 
-body {
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   background-image: linear-gradient(68.15deg, #21222c 16.62%, #282a36 85.61%);
   font-size: 100%;
-  min-height: 100%;
 }
 
-body::-webkit-scrollbar {
+.main::-webkit-scrollbar {
   width: 8px;
   background-color: #282a36; /* or add it to the track */
 }
 
-body::-webkit-scrollbar-thumb {
+.main::-webkit-scrollbar-thumb {
   background: #aaaaaa;
   border-radius: 15px;
 }
@@ -48,11 +50,8 @@ body::-webkit-scrollbar-thumb {
   font-size: 18px;
 }
 
-.header-nav-item-img {
-  height: 30px;
-}
-
 .content {
+  flex: 1;
   margin-bottom: 48px;
   border-top: 0.4px solid #2f303b;
 }
@@ -86,8 +85,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .content-principal-img {
-  height: 380px;
-  border-radius: 50%;
+  height: 240px;
+  border-radius: 15% 0 15% 0;
 }
 
 .footer {
